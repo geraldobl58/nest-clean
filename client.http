@@ -32,3 +32,9 @@ Authorization: Bearer {{authToken}}
     "title": "New Tiitle",
     "content": "New Content"
 }
+
+###
+# @name get_questions
+GET {{baseUrl}}/questions
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
